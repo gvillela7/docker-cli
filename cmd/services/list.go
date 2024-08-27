@@ -14,7 +14,7 @@ import (
 
 var ListCmd = &cobra.Command{
 	Use:   "list",
-	Short: "List all nodes",
+	Short: "List all services",
 	Long:  ``,
 	Run: func(cmd *cobra.Command, args []string) {
 		list := service.DockerServices()

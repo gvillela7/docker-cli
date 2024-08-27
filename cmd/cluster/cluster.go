@@ -23,7 +23,7 @@ var ClusterCmd = &cobra.Command{
 }
 
 func init() {
-	ClusterCmd.Flags().BoolVar(&list, "list", false, "List nodes")
+	ClusterCmd.Flags().BoolVar(&list, "list", false, "List all nodes")
 	if err := ClusterCmd.MarkFlagRequired("list"); err != nil {
 		fmt.Println("usage: --list")
 	}

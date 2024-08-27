@@ -25,6 +25,6 @@ var ServicesCmd = &cobra.Command{
 }
 
 func init() {
-	ServicesCmd.Flags().BoolVar(&list, "list", false, "List all containers")
+	ServicesCmd.Flags().BoolVar(&list, "list", false, "List all services")
 	ServicesCmd.Flags().StringVarP(&show, "show", "s", "", "Show specific service")
 }

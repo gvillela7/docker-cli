@@ -34,6 +34,13 @@ go build .
 ```
 ### Usage
 ```
+ ./snake-docker-cli -h
+```
+```
+ ./snake-docker-cli cluster --list
+```
+![Cluster](./img/cluster.png "Cluster")
+```
  ./snake-docker-cli container --list
 ```
 ![List Containers](./img/list.png "List containers")
