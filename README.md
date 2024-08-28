@@ -30,6 +30,7 @@ sudo systemctl restart docker.service
 ```
 6. Run the command in the project root
 ```
+go install
 go build .
 ```
 ### Usage
